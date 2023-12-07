@@ -11,3 +11,6 @@ spring:
       service-url:
         defaultZone:
           http://localhost:8761/eureka/
+  cache:
+    jcache:
+      config: classpath:cache/ehcache.xml
