@@ -15,4 +15,5 @@ public class AccountApplication {
         SpringApplication.run(AccountApplication.class, args);
     }
 
+    // TODO не стоит кешироввать через xml, это старый способ. Закешируй через бины
 }
