@@ -37,7 +37,6 @@
             <artifactId>preliquibase-spring-boot-starter</artifactId>
             <version>${preliquibase.version}</version>
         </dependency>
-<!--        TODO я не уверен, что javax.cache нужен. Если считаешь иначе, напиши в лс или в группе тегни-->
         <dependency>
             <groupId>javax.cache</groupId>
             <artifactId>cache-api</artifactId>
